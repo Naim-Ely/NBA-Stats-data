@@ -1,6 +1,6 @@
 # NBA-Stats-data
 
-NBA League Leaders Data Processing
+NBA League Leaders Data Processing/n
 This repository contains a Python script that fetches NBA league leader statistics using the nba_api package, processes the data with pandas, and stores it in a SQL Server database using SQLAlchemy and pyodbc. Additionally, the script creates a SQL view to easily query specific subsets of the data.
 
 Requirements
