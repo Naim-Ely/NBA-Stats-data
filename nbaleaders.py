@@ -8,7 +8,7 @@ from nba_api.stats.endpoints import leagueleaders
 league_leaders = leagueleaders.LeagueLeaders()
 df = league_leaders.get_data_frames()[0]
 ###CSV FILE ###
-#df.to_csv('C:\\Users\\naime\\Downloads\\nba_league_leaders.csv', index=False)
+#df.to_csv('path/to/save', index=False)
 
 server = 'DESKTOP-CGM6H41'
 database = 'NBA_STATS'
