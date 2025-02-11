@@ -10,8 +10,8 @@ df = league_leaders.get_data_frames()[0]
 ###CSV FILE ###
 #df.to_csv('path/to/save', index=False)
 
-server = 'DESKTOP-CGM6H41'
-database = 'NBA_STATS'
+server = 'server-name'
+database = 'database-name'
 connection_string = f"mssql+pyodbc://@{server}/{database}?driver=ODBC+Driver+17+for+SQL+Server"
 
 engine = sqlalchemy.create_engine(connection_string)
